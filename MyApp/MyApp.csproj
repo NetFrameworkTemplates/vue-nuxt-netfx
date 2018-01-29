@@ -99,6 +99,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Content Include="npm-shrinkwrap.json" />
     <Content Include=".editorconfig" />
+    <Content Include=".eslintignore" />
     <None Include="packages.config" />
     <None Include="Properties\PublishProfiles\PublishToIIS.pubxml">
       <SubType>Designer</SubType>

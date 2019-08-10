@@ -116,6 +116,9 @@
     <Compile Include="AppHost.cs" />
     <Content Include=".eslintrc.js" />
     <Content Include="Global.asax" />
+    <Compile Include="Configure.Auth.cs" />
+    <Compile Include="Configure.AuthRepository.cs" />
+    <Compile Include="Configure.Ui.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -128,7 +131,7 @@
       <SubType>Designer</SubType>
     </None>
     <Content Include="nuxt.config.js" />
-    <Content Include="src\assets\css\app.css" />
+    <Content Include="src\assets\css\default.css" />
     <Content Include="src\assets\README.md" />
     <Content Include="src\components\AppLogo.vue" />
     <Content Include="src\components\README.md" />
@@ -136,21 +139,28 @@
     <Content Include="src\layouts\README.md" />
     <Content Include="src\middleware\README.md" />
     <Content Include="src\pages\about.vue" />
-    <Content Include="src\pages\contact.vue" />
     <Content Include="src\pages\index.vue" />
-    <Content Include="src\pages\posts\_id.vue" />
     <Content Include="src\pages\README.md" />
     <Content Include="src\plugins\nuxt-client-init.js" />
     <Content Include="src\plugins\README.md" />
+    <Content Include="src\plugins\servicestack-vue.js" />
     <Content Include="src\shared\dtos.js" />
     <Content Include="src\shared\gateway.js" />
+    <Content Include="src\shared\index.js" />
     <Content Include="src\static\favicon.ico" />
-    <Content Include="src\static\img\loading.svg" />
-    <Content Include="src\static\img\logo.svg" />
     <Content Include="src\static\README.md" />
+    <Content Include="src\static\svg\svg-icons\home.svg" />
+    <Content Include="src\static\svg\svg-icons\loading.svg" />
+    <Content Include="src\static\svg\svg-icons\logo.svg" />
     <Content Include="src\store\index.js" />
     <Content Include="src\store\README.md" />
     <Content Include="Web.config" />
+    <Content Include="src\components\Link.vue" />
+    <Content Include="src\pages\admin\index.vue" />
+    <Content Include="src\pages\forbidden.vue" />
+    <Content Include="src\pages\profile.vue" />
+    <Content Include="src\pages\signin.vue" />
+    <Content Include="src\pages\signup.vue" />
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -161,11 +171,13 @@
     <Content Include="gulpfile.js" />
   </ItemGroup>
   <ItemGroup>
-    <TypeScriptCompile Include="src\shared\dtos.ts" />
+    <Folder Include="src\assets\img\" />
+    <Folder Include="src\pages\posts\" />
+    <Folder Include="src\static\img\" />
+    <Folder Include="wwwroot\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="src\assets\img\" />
-    <Folder Include="wwwroot\" />
+    <TypeScriptCompile Include="src\shared\dtos.ts" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

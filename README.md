@@ -6,9 +6,9 @@ ASP.NET Framework Vue Nuxt.js App Template
 
 > Browse [source code](https://github.com/NetFrameworkTemplates/vue-nuxt-netfx), view live demo [vue-nuxt.web-templates.io](http://vue-nuxt.web-templates.io) and install with [dotnet-new](http://docs.servicestack.net/dotnet-new):
 
-    $ npm install -g @servicestack/cli
+    $ dotnet tool install --global web
 
-    $ dotnet-new vue-nuxt-netfx ProjectName
+    $ web new vue-nuxt-netfx ProjectName
 
 ## Description
 

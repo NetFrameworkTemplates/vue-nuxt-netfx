@@ -8,7 +8,7 @@ ASP.NET Framework Vue Nuxt.js App Template
 
     $ dotnet tool install --global web
 
-    $ web new vue-nuxt-netfx ProjectName
+    $ x new vue-nuxt-netfx ProjectName
 
 ## Description
 
